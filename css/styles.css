@@ -1,0 +1,29 @@
+.col {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.card {
+    height: 350px;
+    border: 2px solid grey;
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.enquirymain {
+    justify-content: flex-start;
+}
+
+.enquirymain > #enquiryform {
+    background-color:rgb(238, 231, 231);
+    width: 50%;
+    padding: 20px;
+}
+
+#map {
+    height: 300px;
+    /* The height is 300 pixels */
+    width: 30%;
+    /* The width is the width of the web page */
+  }
